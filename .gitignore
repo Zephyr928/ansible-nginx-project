@@ -1,0 +1,24 @@
+# Ansible
+*.retry
+
+# Python (Ansible uses Python under the hood)
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# SSH keys (VERY IMPORTANT)
+*.pem
+
+# Terraform (for later)
+.terraform/
+*.tfstate
+*.tfstate.backup
